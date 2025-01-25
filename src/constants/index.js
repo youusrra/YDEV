@@ -6,9 +6,10 @@ import {
   github,
   javascript,
   typescript,
-  nodejs,
+  nextjs,
   reactjs,
   tailwind,
+  ycoffeeProject
 } from "../assets";
 
 export const navLinks = [
@@ -17,14 +18,25 @@ export const navLinks = [
     title: "ydev",
   },
   {
-    id: "about",
-    title: "about",
+    id: "projects",
+    title: "projects",
   },
   {
     id: "contact",
     title: "contact",
   },
 ];
+
+const projects = [
+  {
+    name: "YCOFFEE",
+    description:
+      "A coffee-focused app that allows users to dive into the world of specialty coffee, discover hidden gems, and connect with a passionate community.",
+    image: ycoffeeProject,
+    source_code_link: "https://github.com/youusrra/YCOFFEE",
+    source_code_link2: "https://y-coffee.vercel.app/",
+  },
+]
 
 const technologies = [
   {
@@ -56,17 +68,21 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "figma",
+    icon: figma,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Next js",
+    icon: nextjs,
   },
 ];
 
-export { technologies }
+
+//  " Beyond coding, I’m a coffee enthusiast and music lover who finds inspiration in creativity and simplicity. My dream is to contribute to meaningful projects and eventually become part of Germany’s thriving tech community."
+
+
+export { technologies, projects }
