@@ -32,7 +32,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                 active === link.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
@@ -43,7 +43,7 @@ const Navbar = () => {
             <a target="blank" href="https://github.com/youusrra">
             <FaGithub className="w-[25px] h-[25px] text-blue" />
             </a>
-            <a className="ml-2" target="blank" href="https://www.linkedin.com/in/yousra-khaled-0b8443306/">
+            <a className="ml-2" target="blank" href="https://www.linkedin.com/in/yousra-k-0b8443306/">
             <FaLinkedin className="w-[25px] h-[25px] text-blue" />
             </a>
             <a className="ml-2" target="blank" href="mailto:youusra.kh@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you.">
